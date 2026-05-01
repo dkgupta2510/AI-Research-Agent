@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-05-02T00:03:39.658597",
+  "query": "Compare quantum biology theories in plants",
+  "result": {
+    "question": "Compare quantum biology theories in plants",
+    "plan": [
+      "Identify specific quantum biology theories or models discussed in the provided content related to plants.",
+      "Describe the core mechanism and proposed role of each identified theory.",
+      "Synthesize the information to highlight the distinct aspects and common goals of these theories in plant biology."
+    ],
+    "short_answer": "Quantum biology theories in plants propose that quantum coherence and entanglement are fundamental to processes like exciton transport in photosynthesis, radical-pair mechanisms in cryptochrome-mediated magnetoreception, and plasmodesmatal transport, enhancing signal fidelity, energy efficiency, and long-distance communication.",
+    "key_findings": [
+      "Site-based Hamiltonians model exciton transport in photosynthetic complexes, suggesting quantum coherence for energy efficiency.",
+      "Spin-Hamiltonian models describe radical-pair processes in cryptochromes, linking quantum behavior to magnetoreception.",
+      "Quantum percolation theories address plasmodesmatal transport, proposing quantum correlations for signal fidelity and adaptive responses.",
+      "Quantum entanglement is theorized to improve long-distance communication and energy transfer within plants."
+    ],
+    "sources": [
+      "https://link.springer.com/article/10.1007/s12064-025-00454-7"
+    ],
+    "confidence": "High",
+    "limitations": [
+      "The provided content is an abstract and truncated preview, limiting access to detailed comparative analysis or specific experimental methodologies for each theory.",
+      "The comparison is based on the theoretical frameworks outlined, not on a deep dive into their mathematical or empirical differences."
+    ],
+    "next_steps": [
+      "Access the full article to gain a more comprehensive understanding of each theoretical framework and its specific implications.",
+      "Research experimental evidence and ongoing studies that directly compare or differentiate these quantum biological mechanisms in plants.",
+      "Investigate the specific challenges and future research directions for each theory as outlined in the full review."
+    ]
+  }
+}

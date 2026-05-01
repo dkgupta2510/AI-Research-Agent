@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-05-01T23:35:34.887871",
+  "query": "Find 5 Indian B2B SaaS startups in HR tech and summarize their positioning\",",
+  "result": {
+    "mode": "general",
+    "answer": "Here are 5 Indian B2B SaaS HR tech startups and their positioning:",
+    "points": [
+      "**Darwinbox**: Positioned as an enterprise-grade, mobile-first HRMS platform for large and complex organizations, focusing on comprehensive HR lifecycle management.",
+      "**Keka**: Focuses on providing an intuitive and modern HRMS for small to medium-sized businesses (SMEs), emphasizing ease of use and employee experience.",
+      "**PeopleStrong**: A full-stack HR technology platform primarily serving large enterprises in India and Southeast Asia, offering solutions across talent acquisition, management, and payroll.",
+      "**greytHR**: Specializes in cloud-based payroll and HR software, particularly strong in compliance and automation for Indian businesses of various sizes.",
+      "**Leena AI**: Positions itself as an AI-powered conversational platform for HR, automating employee queries and HR workflows to enhance employee experience and HR efficiency."
+    ],
+    "sources": [],
+    "confidence": "High"
+  }
+}

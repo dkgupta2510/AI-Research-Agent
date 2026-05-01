@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research Agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="background-gradients">
+        <div class="glow-orb primary-orb"></div>
+        <div class="glow-orb secondary-orb"></div>
+    </div>
+
+    <main class="container">
+        <header id="header" class="header-center">
+            <h1>AI Research Agent</h1>
+            <p>Powered by Gemini & Web Search</p>
+            
+            <form id="search-form" class="search-box">
+                <input type="text" id="query-input" placeholder="Ask a question..." required autocomplete="off">
+                <button type="submit" id="search-btn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </form>
+        </header>
+
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>Analyzing the web and reasoning...</p>
+        </div>
+
+        <div id="error-message" class="hidden"></div>
+
+        <div id="results" class="hidden">
+            <div class="results-header">
+                <h2>Results</h2>
+                <span id="confidence-badge" class="badge"></span>
+            </div>
+
+            <div class="grid-layout">
+                <div class="card answer-card">
+                    <h3>Answer</h3>
+                    <p id="res-answer"></p>
+                </div>
+                
+                <div class="card findings-card">
+                    <h3>Key Findings</h3>
+                    <ul id="res-findings"></ul>
+                </div>
+
+                <div class="card plan-card">
+                    <h3>Research Plan</h3>
+                    <ol id="res-plan"></ol>
+                </div>
+
+                <div class="card limitations-card">
+                    <h3>Limitations</h3>
+                    <ul id="res-limitations"></ul>
+                </div>
+
+                <div class="card next-steps-card">
+                    <h3>Next Steps</h3>
+                    <ul id="res-next-steps"></ul>
+                </div>
+
+                <div class="card sources-card">
+                    <h3>Sources</h3>
+                    <ul id="res-sources"></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

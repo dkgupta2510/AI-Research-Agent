@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-01T23:34:10.048173",
+  "query": "What are the pros and cons of using a multi-agent architecture for customer support automation",
+  "result": {
+    "mode": "general",
+    "answer": "Multi-agent architectures for customer support automation offer benefits like specialization and scalability, but introduce complexities in coordination and integration.",
+    "points": [
+      "Pros: Enhanced specialization for different query types, improved scalability to handle varying loads, and potentially faster resolution through intelligent routing.",
+      "Cons: Increased complexity in design and management, challenges in coordinating agent interactions, and potential for miscommunication or redundant efforts if not well-orchestrated."
+    ],
+    "sources": [],
+    "confidence": "High"
+  }
+}

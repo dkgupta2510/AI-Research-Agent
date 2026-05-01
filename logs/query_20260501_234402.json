@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-05-01T23:44:02.405555",
+  "query": "python cli.py --query \"Find 5 Indian B2B SaaS startups in HR tech and summarize their positioning\"",
+  "result": {
+    "question": "python cli.py --query \"Find 5 Indian B2B SaaS startups in HR tech and summarize their positioning\"",
+    "plan": [
+      "Search for 'Indian B2B SaaS HR tech startups' to identify relevant companies.",
+      "Select 5 distinct startups from the search results.",
+      "For each selected startup, research their primary product/service offerings and target market to understand their unique positioning.",
+      "Summarize the positioning for each of the 5 identified startups."
+    ],
+    "short_answer": "Five Indian B2B SaaS HR tech startups include Darwinbox, ZingHR, PeopleStrong, Keka, and HROne, each offering comprehensive HR management solutions with distinct focuses on enterprise, mid-market, or specific functionalities like payroll and talent management.",
+    "key_findings": [
+      "Darwinbox: Positioned as an enterprise-grade HRMS platform, offering a comprehensive suite from core HR to talent management, focusing on large organizations seeking an intuitive and mobile-first experience.",
+      "ZingHR: Offers an end-to-end HR solution with a strong emphasis on payroll, compliance, and performance management, targeting mid-to-large enterprises looking for scalable and compliant HR operations.",
+      "PeopleStrong: Provides a full-stack HR technology platform, including talent acquisition, management, and payroll, aiming to transform employee experience for large enterprises and growing businesses.",
+      "Keka: Focuses on simplifying HR and payroll for small to medium-sized businesses (SMBs) with an intuitive user interface, emphasizing employee experience and efficient HR operations.",
+      "HROne: Offers an AI-powered HRMS platform designed to automate HR processes, improve employee engagement, and streamline payroll, targeting SMBs and mid-market companies looking for modern, integrated HR solutions."
+    ],
+    "sources": [],
+    "confidence": "Medium",
+    "limitations": [
+      "Information is based on general knowledge and publicly available company descriptions, which may not reflect the most recent strategic shifts or detailed product features.",
+      "The selection of startups is not exhaustive and represents a snapshot of prominent players in the Indian HR tech SaaS market.",
+      "Positioning summaries are high-level and may not capture all nuances of each company's market strategy."
+    ],
+    "next_steps": [
+      "Conduct a deeper analysis of each company's specific feature sets, pricing models, and customer testimonials.",
+      "Investigate recent funding rounds and growth metrics for these startups to assess market traction.",
+      "Compare the competitive landscape and identify emerging trends in the Indian HR tech SaaS sector."
+    ]
+  }
+}
