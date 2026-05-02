@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-05-02T22:47:24.031823",
+  "query": "Compare different approaches to memory in AI agents",
+  "result": {
+    "question": "Compare different approaches to memory in AI agents",
+    "short_answer": "No reliable information could be retrieved for this query.",
+    "key_findings": [],
+    "sources": [],
+    "confidence": "Low",
+    "limitations": [
+      "Insufficient relevant data retrieved from web sources",
+      "Weak or missing source coverage for this query"
+    ],
+    "next_steps": [
+      "Refine the search query with more specific terminology",
+      "Consult specialized academic databases such as ArXiv or PubMed"
+    ]
+  }
+}

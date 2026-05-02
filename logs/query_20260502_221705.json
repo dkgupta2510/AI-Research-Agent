@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-05-02T22:17:05.522933",
+  "query": "Compare the top 3 open-source vector databases for a startup building RAG products",
+  "result": {
+    "question": "Compare the top 3 open-source vector databases for a startup building RAG products",
+    "plan": [
+      "Identify popular open-source vector databases",
+      "Compare features, performance, and scalability of the top 3 databases"
+    ],
+    "short_answer": "The top 3 open-source vector databases for RAG products are Milvus, Qdrant, and Weaviate, each offering unique features and trade-offs in terms of scalability, search quality, and operational complexity.",
+    "key_findings": [
+      "Milvus is a purpose-built vector database for billion-scale vector search, offering massive scale and index configurability.",
+      "Qdrant is a fast HNSW-based engine with strong payload filtering and geo-filters, suitable for large-scale RAG systems.",
+      "Weaviate blends vector and symbolic search with hybrid search and automatic module ecosystem, ideal for metadata-aware RAG applications."
+    ],
+    "sources": [
+      "https://www.ai-infra-link.com/comparing-open-source-vector-databases-for-rag-pipelines-a-comprehensive-guide-for-2025/",
+      "https://medium.com/@rajamanickamantonimuthu/top-10-vector-databases-for-rag-applications-6f619614dbcf"
+    ],
+    "confidence": "High",
+    "limitations": [
+      "The comparison is based on publicly available information and may not reflect the latest developments or updates.",
+      "The evaluation of the databases is subjective and may vary depending on specific use cases and requirements."
+    ],
+    "next_steps": [
+      "Evaluate the trade-offs and choose the most suitable vector database for the specific RAG application.",
+      "Consider factors such as scalability, search quality, and operational complexity when selecting a vector database."
+    ]
+  }
+}
